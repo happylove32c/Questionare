@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neon-border {
+    box-shadow: 0 0 10px rgba(28, 39, 76, 0.8), 0 0 20px rgba(28, 39, 76, 0.5);
+  }
+  .neon-img {
+    filter: drop-shadow(0 0 6px rgba(28, 39, 76, 0.6));
+  }
+  
+  :root {
+    --font-gamey: 'GameyFont', cursive;
+  }
